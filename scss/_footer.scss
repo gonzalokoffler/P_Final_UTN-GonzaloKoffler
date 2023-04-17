@@ -1,0 +1,25 @@
+footer {
+  @include flex-colum;
+  margin-top: auto;
+  
+  background: rgb(0, 0, 0);
+  height: 15%;
+  color:map-get($color-text , text-3   );
+
+  .titulo-de-pie-de-pagina {
+    text-align: center;
+    color: #707576;
+  }
+}
+.redes-sociales {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: beige;
+
+    &:hover {
+      color: map-get($color-text , text-7 );
+    }
+  }
+}

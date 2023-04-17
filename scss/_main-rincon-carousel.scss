@@ -1,0 +1,32 @@
+.carousel-inner {
+    display: block;
+    justify-content: space-evenly;
+    
+    
+    .carousel-item {
+    @include center_center;
+    
+    
+    .imagen-carousel {      
+      border: map-get($bordes , borde-1);
+    border-radius: 4px;
+  }
+  }
+  }
+
+  h5{
+    color:map-get($color-text , text-4 );
+    font-size: 30px;
+    
+   
+  }
+  .slide{
+    margin-top: 30px;    
+    
+  }
+  .slide img{
+    max-width: 60%;
+    height: 60vh;
+
+  }
+  

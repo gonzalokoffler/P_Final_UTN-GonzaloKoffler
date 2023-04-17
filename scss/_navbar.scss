@@ -1,0 +1,20 @@
+.navbar {
+  background: rgb(55, 53, 53);
+  position: sticky;
+
+  a {
+    text-decoration: none;
+    color:map-get($color-text , text-3 );
+    font-size: 30px;
+    font-family: "tangerine", cursive;
+   
+  }
+}
+
+.navbar-toggler:hover{
+  color: map-get($color-text , text-3 );
+}
+h6{
+  color:map-get($color-text , text-3 );
+
+}

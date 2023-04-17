@@ -1,0 +1,8 @@
+body {background-image: url(https://i.pinimg.com/564x/54/e5/97/54e597083d3aa069675fc8cc3f054cf0.jpg);
+  color: map-get($color-text, text-1 );
+ @include flex-colum;
+  min-height: 100vh;
+  
+  width: auto;
+  
+}

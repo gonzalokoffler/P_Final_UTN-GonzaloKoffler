@@ -1,0 +1,42 @@
+.container {
+  @include flex-wrap-center;
+ 
+
+  .card {
+    width: 350px;
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    transition: all 400ms ease;
+
+    &:hover {
+      box-shadow:map-get($sombras, sombraText-1 );
+      transform: translateY(-3%);
+    }
+  }
+}
+.card .contenido {
+  padding: 5px;
+  text-align: center;
+
+  p {
+    line-height: 1.5;
+    color: map-get($color-text, text-5 );
+
+  }
+}
+.contenido a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: black;
+  border: map-get($bordes , borde-1);
+  border-radius: 4px;
+  transition: all 400ms ease;
+
+  &:hover {
+    background: black;
+    color: white;
+  }
+}

@@ -1,0 +1,14 @@
+.top-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #656466;
+
+  .icon-location,
+  .icon-phone,
+  .icon-email {
+    color:map-get($color-text ,text-2 );
+    height: 30px;
+  }
+}
